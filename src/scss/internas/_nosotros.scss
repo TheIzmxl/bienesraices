@@ -1,0 +1,17 @@
+@include tablet {
+    .nosotros-contenido {
+        @include grid(2, 2rem)
+    }
+}
+
+.nosotros-info {
+    
+    @include tablet {
+        h4 {
+            margin: 0;
+        }
+    }
+}
+
+
+
