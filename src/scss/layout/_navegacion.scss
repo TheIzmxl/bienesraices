@@ -9,7 +9,7 @@
 .dark-mode-boton{
     width: 3rem;
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     filter: invert(100%);
 
     &:hover {
@@ -45,6 +45,7 @@
         align-items: center;
         opacity: 1;
         visibility: visible;
+        height: auto;
     }
     a {
         color: $blanco;
